@@ -1,0 +1,150 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "google-search;open-google-and-search-for-something",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open Google and search for something",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the Google search page",
+            "match": {
+              "location": "src\\test\\steps\\googleSearchSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2911640800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I type \"Playwright\" in the search field and press Enter",
+            "match": {
+              "location": "src\\test\\steps\\googleSearchSteps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2261839700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should see the search results and close the browser",
+            "match": {
+              "location": "src\\test\\steps\\googleSearchSteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3400287800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "google-search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Google Search",
+    "tags": [],
+    "uri": "src\\test\\features\\googleSearch.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-login;successful-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Successful login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the login page",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3446278799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter the username \"Admin\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 433315500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter the password \"admin123\"",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31174299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1288544700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5350114600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Login",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]

@@ -1,4 +1,4 @@
-# Playwright Cucumber TypeScript Scripts for Google Search and Orange HRM Login
+# Playwright Cucumber TypeScript Scripts for the Google Search and Orange HRM Login
 
 ## Project Overview
 
